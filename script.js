@@ -11,7 +11,13 @@
  */
 
 // ここに関数を定義しましょう
-
+const over100 = function(number) {
+    if (number >= 100){
+        return true;
+    } else {
+        return false;
+    }
+}
 
 // ここからはテストなので変更を加えないでください
 console.log("*** 問題 ***");
